@@ -21,9 +21,12 @@ git clone https://github.com/sandeepahuja-stack/trainingIntern.git
 - Actions - Get Vs Post 
 - Tech Stack Used: HTML/CSS 
 
+> Note: Bind change even in form, don't bind events in all input fields 
+> every events consume memory
+
 ## 2nd Lesson
 - Followup of 1st Lesson
-- Event Listeners 
+- Event Listeners Keyup, Key Down, Blur, Change
 - Javascript Form Validation 
 - Preventing Events 
 - Fetch API
@@ -40,3 +43,9 @@ git clone https://github.com/sandeepahuja-stack/trainingIntern.git
 - Followup of 3rd Lesson
 - Json Format to create dynamic form
 - Tech Stack Used: HTML/CSS/Javascript
+
+## Bonus 
+> use debounce
+> IIFE 
+> use this library https://github.com/yairEO/validator 
+> data attributes

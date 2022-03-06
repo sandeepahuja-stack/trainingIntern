@@ -1,0 +1,119 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 12px;
+  line-height: 30px;
+  color: #777;
+  background: #ff7900;
+}
+.text-white{
+    color: #fff;
+}
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.contact-form {
+  background: #F9F9F9;
+  padding: 25px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+fieldset {
+  border: medium !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.contact-form .form-field {
+  width: 93%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+
+.contact-form textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.contact-form button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #ff7900;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.contact-form button[type="submit"]:hover {
+  background: #ff7900;
+  opacity: 0.9;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: rgb(179, 179, 179); 
+	}
+
+th { 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+}
+
+.d-flex{
+    display: flex;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.error{
+  color: red;
+}
+
+.d-none{
+  display: none;
+}
