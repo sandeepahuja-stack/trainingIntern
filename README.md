@@ -1,8 +1,17 @@
 # Fresher Training Session for forms 
 
+
+
 > Motivation: From these Lessons we are able to create our own forms and custom components 
 > Multi Step Form, Searchable Select
 > JSON Format to create a dynamic form 
+
+
+
+## Clone this in your local
+```sh
+git clone https://github.com/sandeepahuja-stack/trainingIntern.git
+```
 
 ## 1st Lesson
 - Basic Understanding of Forms and their validations
@@ -31,4 +40,3 @@
 - Followup of 3rd Lesson
 - Json Format to create dynamic form
 - Tech Stack Used: HTML/CSS/Javascript
-

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>First Lesson</title>
+    </head>
+<body>
+<div class="d-flex">
+<div class="container">  
+
+<h2 class="text-white h2">HTML Forms</h2>
+<p class="text-white">An HTML form is used to collect user input. The user input is most often sent to a server for processing.</p>    
+    <form id="contact" class="contact-form" action="/example.php" method="get">
+
+      <fieldset>
+        <input placeholder="Your name"  name="firstName" type="text" tabindex="1" required autofocus class="form-field"/>
+      </fieldset>
+      <fieldset>
+      <label for="lastName">Last Name</label>
+      <input name="lastName" id="lastName" placeholder="Last Name" type="text" class="form-field"/>
+
+    </fieldset>
+      <fieldset>
+        <input placeholder="Your Email Address" name="email"  type="email" tabindex="2" required class="form-field"/>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Phone Number (optional)" type="tel" name="tel" tabindex="3"  class="form-field"/>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Your Web Site (optional)" type="url" name="url" tabindex="4"  class="form-field"/>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Type your message here...." name="msg" tabindex="5" required class="form-field"></textarea>
+      </fieldset>
+      <fieldset>
+        
+        <input name="t&c" id="t&c" type="checkbox" />
+        <label for="t&c">Checkbox Agree </label>
+      </fieldset>
+      <fieldset>
+        <button  type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+      </fieldset>
+    </form>
+
+   
+
+  </div>
+  <div class="mr-10">
+  <p class="text-white">If you click the "Submit" button, the form-data will be sent to a page called "/example.php".</p>
+
+
+  <table class="table text-white">
+      <tbody><tr>
+      <th>Type</th>
+      <th>Description</th>
+      </tr>
+      <tr>
+      <td>&lt;input type="text"&gt;</td>
+      <td>Displays a single-line text input field</td>
+      </tr>
+      <tr>
+      <td>&lt;input type="radio"&gt;</td>
+      <td>Displays a radio button (for selecting one of many choices)</td>
+      </tr>
+      <tr>
+      <td>&lt;input type="checkbox"&gt;</td>
+      <td>Displays a checkbox (for selecting zero or more of many choices)</td>
+      </tr>
+      <tr>
+      <td>&lt;input type="submit"&gt;</td>
+      <td>Displays a submit button (for submitting the form)</td>
+      </tr>
+      </tbody>
+  </table>
+  </div>
+</div>
+
+</body>
+</html>
+
