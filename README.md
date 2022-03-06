@@ -8,7 +8,7 @@
 
 
 
-## Clone this in your local
+## Clone 
 ```sh
 git clone https://github.com/sandeepahuja-stack/trainingIntern.git
 ```
@@ -21,7 +21,7 @@ git clone https://github.com/sandeepahuja-stack/trainingIntern.git
 - Actions - Get Vs Post 
 - Tech Stack Used: HTML/CSS 
 
-> Note: Bind change even in form, don't bind events in all input fields 
+> Note: Bind change event in form, don't bind events in all input fields 
 > every events consume memory
 
 ## 2nd Lesson
@@ -45,7 +45,8 @@ git clone https://github.com/sandeepahuja-stack/trainingIntern.git
 - Tech Stack Used: HTML/CSS/Javascript
 
 ## Bonus 
-> use debounce
-> IIFE 
-> use this library https://github.com/yairEO/validator 
+> use debounce,
+> IIFE,
+
+> use this library https://github.com/yairEO/validator,
 > data attributes
